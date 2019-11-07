@@ -1,0 +1,7 @@
+@media (max-width: 800px){.bodywraper{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    background: #F5F5F5;
+    grid-column: auto;    
+}
+}
