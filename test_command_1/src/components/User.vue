@@ -25,7 +25,7 @@ import axios from 'axios';
     },
 
 created() {
-      axios.get(`https://my-json-server.typicode.com/AlexanderPanshin/dpv.school/polls`)
+      axios.get(`https://my-json-server.typicode.com/AlexanderPanshin/dpv.school/user`)
       .then(response=> {
         this.items= response.data;
       })

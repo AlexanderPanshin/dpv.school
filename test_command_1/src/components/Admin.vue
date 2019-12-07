@@ -2,7 +2,7 @@
     <div>
         <v-card >
             <v-card-title>
-                Nutrition
+                List of polls
                 <v-spacer></v-spacer>
                 <v-text-field
                         append-icon="mdi-search-web"
@@ -23,12 +23,12 @@
             >
                 <template v-slot:item="props" 
                  >
-                    <tr @click="openDetail(props.item)" >
+                    <tr>
                         <td v-for="id in id"
-        :key="id">{{ props.item.userid }}</td>
-                        <td @click="goTodetail(props.item.name)" class="text-xs-right" >{{ props.item.name }}</td>
-                        <td class="text-xs-right">{{ props.item.company }}</td>
-                        <td class="text-xs-right">{{ props.item.userpolls }}</td>
+        :key="id">{{ props.item.botsid }}</td>
+                        <td @click="goTodetail(props.item.botsid)" class="text-xs-right" >{{ props.item.botsname }}</td>
+                        <td class="text-xs-right">{{ props.item.botscompany }}</td>
+                        <td class="text-xs-right">{{ props.item.userpassed }}</td>
                         <td class="text-xs-right">{{ props.item.numquest }}</td>
                         <td class="text-xs-right">{{ props.item.creatdate }}</td>
                     </tr>
@@ -155,7 +155,7 @@
             }
         },
         created() {
-      axios.get(`https://my-json-server.typicode.com/AlexanderPanshin/dpv.school/polls`)
+      axios.get(`https://my-json-server.typicode.com/AlexanderPanshin/dpv.school/bots`)
       .then(response=> {
         this.items= response.data;
       })
@@ -172,7 +172,7 @@
             },
     goTodetail (prodId) {
       let proId=prodId
-      this.$router.push({name: 'details', params: {Pid: proId}})
+      this.$router.push({name: 'cardchat', params: {Pid: proId}})
     }
   }
     }

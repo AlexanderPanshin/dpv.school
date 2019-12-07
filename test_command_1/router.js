@@ -7,6 +7,7 @@ import Test from "./src/components/Test"
 import EditPoll from "./src/components/EditPoll"
 import User from "./src/components/User"
 import Adminuser from "./src/components/Adminuser"
+import CardChat from "./src/components/CardChat"
 
 Vue.use(Router);
 
@@ -54,6 +55,12 @@ export default new Router({
             path: '/Adminuser/',
             name: 'adminuser',
             component: Adminuser,
+            props: true,
+        },
+        {
+            path: '/CardChat/:Pid',
+            name: 'cardchat',
+            component: CardChat,
             props: true,
         },
     ]

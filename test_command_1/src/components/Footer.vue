@@ -37,6 +37,16 @@
                     Edit
                 </v-btn>
             </router-link>
+            <router-link to="/adminuser" style="text-decoration: none; color: white">
+                <v-btn
+                        color="white"
+                        text
+                        rounded
+                        class="my-2"
+                >
+                    Users
+                </v-btn>
+            </router-link>
             <v-col
                     class="py-4 text-center white--text"
                     cols="12"
