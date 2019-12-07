@@ -8,7 +8,22 @@
       "numquest": 7,
       "creatdate": "02.10.2015",
       "imgbots": "https://www.thesitsgirls.com/wp-content/uploads/2016/06/PGLogo-1.png",
-      "descriptionbots": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla."
+      "descriptionbots": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla.",
+      "botspolls": [
+      {
+       "pollsid":1,
+       "title": "Первый вопрос"
+      },
+      {
+        "pollsid":2,
+        "title": "Второй вопрос"
+       },
+       {
+        "pollsid":3,
+        "title": "Третий вопрос"
+       }
+       
+      ]
     },
     {
       "botsid": 2,
@@ -18,7 +33,22 @@
       "numquest": 12,
       "creatdate": "22.09.2017",
       "imgbots": "https://cdn.wccftech.com/wp-content/uploads/2014/04/intel_receitas_processadores_OMeuiDevice-740x740.png",
-      "descriptionbots": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla ."
+      "descriptionbots": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla .",
+      "botspolls": [
+        {
+         "pollsid":1,
+         "title": "Первый вопрос"
+        },
+        {
+          "pollsid":2,
+          "title": "Второй вопрос"
+         },
+         {
+          "pollsid":3,
+          "title": "Третий вопрос"
+         }
+         
+        ]
     },
     {
       "botsid": 3,
@@ -28,7 +58,22 @@
       "numquest": 10,
       "creatdate": "28.12.2016",
       "imgbots": "https://maxpark.com/static/u/article_image/18/08/31/tmpvdLPPG.png",
-      "descriptionbots": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla ."
+      "descriptionbots": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla .",
+      "botspolls": [
+        {
+         "pollsid":1,
+         "title": "Первый вопрос"
+        },
+        {
+          "pollsid":2,
+          "title": "Второй вопрос"
+         },
+         {
+          "pollsid":3,
+          "title": "Третий вопрос"
+         }
+         
+        ]
     },
     {
       "botsid": 4,
@@ -38,7 +83,22 @@
       "numquest": 3,
       "creatdate": "16.12.2019",
       "imgbots": "https://dtsvkkjw40x57.cloudfront.net/images/author/2829/big_7wU3tFLlRK2WtWUVgOK1_Citrix_20Systems_20Inc.png",
-      "descriptionbots": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla."
+      "descriptionbots": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla.",
+      "botspolls": [
+        {
+         "pollsid":1,
+         "title": "Первый вопрос"
+        },
+        {
+          "pollsid":2,
+          "title": "Второй вопрос"
+         },
+         {
+          "pollsid":3,
+          "title": "Третий вопрос"
+         }
+         
+        ]
     },
     {
       "botsid": 5,
@@ -48,7 +108,22 @@
       "numquest": 15,
       "creatdate": "15.04.2016",
       "imgbots": "https://dtsvkkjw40x57.cloudfront.net/images/author/2760/big_EyeKLGloRx2FYpeMRiPA_National_20Oilwell_20Varco_20Inc.png",
-      "descriptionbots": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla."
+      "descriptionbots": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla.",
+      "botspolls": [
+        {
+         "pollsid":1,
+         "title": "Первый вопрос"
+        },
+        {
+          "pollsid":2,
+          "title": "Второй вопрос"
+         },
+         {
+          "pollsid":3,
+          "title": "Третий вопрос"
+         }
+         
+        ]
     },
     {
       "botsid": 6,
@@ -58,7 +133,22 @@
       "numquest": 26,
       "creatdate": "19.12.2017",
       "imgbots": "https://yournerdside.com/wp-content/uploads/2018/11/19.png",
-      "descriptionbots": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla."
+      "descriptionbots": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla.",
+      "botspolls": [
+        {
+         "pollsid":1,
+         "title": "Первый вопрос"
+        },
+        {
+          "pollsid":2,
+          "title": "Второй вопрос"
+         },
+         {
+          "pollsid":3,
+          "title": "Третий вопрос"
+         }
+         
+        ]
     },
     {
       "botsid": 7,
@@ -68,7 +158,22 @@
       "numquest": 44,
       "creatdate": "10.11.2016",
       "imgbots": "https://www.dogmoneyllc.com/wp-content/uploads/2018/10/1494/14492619_1658549527808747_5767506061656446404_n-740x740.png",
-      "descriptionbots": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla."
+      "descriptionbots": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla.",
+      "botspolls": [
+        {
+         "pollsid":1,
+         "title": "Первый вопрос"
+        },
+        {
+          "pollsid":2,
+          "title": "Второй вопрос"
+         },
+         {
+          "pollsid":3,
+          "title": "Третий вопрос"
+         }
+         
+        ]
     },
     {
       "botsid": 8,
@@ -78,7 +183,22 @@
       "numquest": 35,
       "creatdate": "30.11.2015",
       "imgbots": "https://www.clipartmax.com/png/full/182-1820951_gallery-korea-government-of-the-republic-of-korea.png",
-      "descriptionbots": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla."
+      "descriptionbots": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla.",
+      "botspolls": [
+        {
+         "pollsid":1,
+         "title": "Первый вопрос"
+        },
+        {
+          "pollsid":2,
+          "title": "Второй вопрос"
+         },
+         {
+          "pollsid":3,
+          "title": "Третий вопрос"
+         }
+         
+        ]
     },
     {
       "botsid": 9,
@@ -88,48 +208,23 @@
       "numquest": 17,
       "creatdate": "27.03.2017",
       "imgbots": "http://www.disasterstrategies.org/application/files/thumbnails/small/5714/8495/4563/PortlightLogo_Square.jpg",
-      "descriptionbots": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla."
-    },
-    {
-      "botsid": 10,
-      "botsname": "Astronaut",
-      "botscompany": "Roga I Kopita",
-      "userpassed": 518,
-      "numquest": 18,
-      "creatdate": "29.03.2016",
-      "imgbots": "https://muuramenmarkkinat.fi/wp-content/uploads/2018/05/Harvia_logo.png",
-      "descriptionbots": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla."
-    },
-    {
-      "botsid": 11,
-      "botsname": "Traktorist",
-      "botscompany": "Roga I Kopita",
-      "userpassed": 518,
-      "numquest": 18,
-      "creatdate": "29.03.2016",
-      "imgbots": "https://kitweb.pro/wp-content/uploads/2019/09/mh0-740x740.png",
-      "descriptionbots": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla."
-    },
-    {
-      "botsid": 12,
-      "botsname": "Maniak",
-      "botscompany": "Westindische Compagnie",
-      "userpassed": 24,
-      "numquest": 16,
-      "creatdate": "15.07.2016",
-      "imgbots": "http://thelemainfotech.com/wp-content/uploads/2019/01/logo-stacked-740x740.png",
-      "descriptionbots": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla."
-    },
-    {
-      "botsid": 13,
-      "botsname": "Medfical",
-      "botscompany": "Roga I Kopita",
-      "userpassed": 14,
-      "numquest": 2,
-      "creatdate": "20.12.2017",
-      "imgbots": "https://kitweb.pro/wp-content/uploads/2019/09/0-neos-740x740.png",
-      "descriptionbots": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla"
-    }
+      "descriptionbots": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla.",
+      "botspolls": [
+        {
+         "pollsid":1,
+         "title": "Первый вопрос"
+        },
+        {
+          "pollsid":2,
+          "title": "Второй вопрос"
+         },
+         {
+          "pollsid":3,
+          "title": "Третий вопрос"
+         }
+         
+        ]
+    }      
   ],
   "user":[
     {
@@ -203,38 +298,6 @@
     "registdate": "14.05.2013",
     "ageuser": 77,
     "regstatus":true
-    },
-    {
-    "userid": 10,
-    "image": "https://media.moddb.com/images/members/3/2928/2927600/ao_red_death_06.jpg",
-    "username": "Robyn Norris",
-    "registdate": "30.11.2012",
-    "ageuser": 18,
-    "regstatus":false
-    },
-    {
-    "userid": 11,
-    "image": "https://cdn6.f-cdn.com/contestentries/328711/14229955/5698158f7c89c_thumb900.jpg",
-    "username": "Stuart Hall",
-    "registdate": "13.07.2017",
-    "ageuser": 20,
-    "regstatus":true
-    },
-    {
-    "userid": 12,
-    "image": "https://i7.pngguru.com/preview/397/672/1017/overwatch-dallas-fuel-genji-chibi-chibi.jpg",
-    "username": "Margaret Cameron",
-    "registdate": "12.12.2019",
-    "ageuser": 36,
-    "regstatus":false
-    },
-    {
-    "userid": 13,
-    "image": "https://ih1.redbubble.net/image.449003452.9686/flat,800x800,075,f.u7.jpg",
-    "username": "Christopher Lang",
-    "registdate": "01.04.2015",
-    "ageuser": 55,
-    "regstatus": true
     }
   ]
 }
