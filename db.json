@@ -207,33 +207,7 @@
         "skills": "skills ( вместо тегов )",
         "position": "position (название вакансии)",
         "creator_id": "user_id"
-    },
-    {
-      "id": 9,
-      "title": "Merchant",
-      "company": "Westindische Compagnie",
-      "userpassed": 452,
-      "questions_num": 17,
-      "createdate": "27.03.2017",
-      "canceled": true,
-      "image": "http://www.disasterstrategies.org/application/files/thumbnails/small/5714/8495/4563/PortlightLogo_Square.jpg",
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla.",
-      "questions": [
-        {         
-         "title": "Первый вопрос"
-        },
-        {          
-          "title": "Второй вопрос"
-         },
-         {          
-          "title": "Третий вопрос"
-         }         
-        ],
-        "geo": "Тут Будет Город",
-        "skills": "skills ( вместо тегов )",
-        "position": "position (название вакансии)",
-        "creator_id": "user_id"
-    }      
+    }  
   ],
   "user":[
     {
@@ -299,14 +273,6 @@
     "registdate": "22.10.2011",
     "ageuser": 42,
     "regstatus":false
-    },
-    {
-    "userid": 9,
-    "image": "https://img.elephantjournal.com/wp-content/uploads/2019/05/Jadav_and_the_Tree_Place.jpg",
-    "username": "Emil Bradley",
-    "registdate": "14.05.2013",
-    "ageuser": 77,
-    "regstatus":true
     }
   ]
 }
