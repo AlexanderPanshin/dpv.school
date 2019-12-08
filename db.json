@@ -20,8 +20,11 @@
        {
         "title": "Третий вопрос"
        }
-       
-      ]
+      ],
+        "geo": "Тут Будет Город",
+        "skills": "skills ( вместо тегов )",
+        "position": "position (название вакансии)",
+        "creator_id": "user_id"
     },
     {
       "id": 2,
@@ -35,7 +38,6 @@
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla .",
       "questions": [
         {
-         
          "title": "Первый вопрос"
         },
         {
@@ -44,8 +46,11 @@
          {
           "title": "Третий вопрос"
          }
-         
-        ]
+        ],
+        "geo": "Тут Будет Город",
+        "skills": "skills ( вместо тегов )",
+        "position": "position (название вакансии)",
+        "creator_id": "user_id"
     },
     {
       "id": 3,
@@ -67,7 +72,11 @@
          {
           "title": "Третий вопрос"
          }
-        ]
+        ],
+        "geo": "Тут Будет Город",
+        "skills": "skills ( вместо тегов )",
+        "position": "position (название вакансии)",
+        "creator_id": "user_id"
     },
     {
       "id": 4,
@@ -89,7 +98,11 @@
          {
           "title": "Третий вопрос"
          }
-        ]
+        ],
+        "geo": "Тут Будет Город",
+        "skills": "skills ( вместо тегов )",
+        "position": "position (название вакансии)",
+        "creator_id": "user_id"
     },
     {
       "id": 5,
@@ -111,7 +124,11 @@
          {
           "title": "Третий вопрос"
          } 
-        ]
+        ],
+        "geo": "Тут Будет Город",
+        "skills": "skills ( вместо тегов )",
+        "position": "position (название вакансии)",
+        "creator_id": "user_id"
     },
     {
       "id": 6,
@@ -133,7 +150,11 @@
          {
           "title": "Третий вопрос"
          }
-        ]
+        ],
+        "geo": "Тут Будет Город",
+        "skills": "skills ( вместо тегов )",
+        "position": "position (название вакансии)",
+        "creator_id": "user_id"
     },
     {
       "id": 7,
@@ -155,7 +176,11 @@
          {          
           "title": "Третий вопрос"
          }         
-        ]
+        ],
+        "geo": "Тут Будет Город",
+        "skills": "skills ( вместо тегов )",
+        "position": "position (название вакансии)",
+        "creator_id": "user_id"
     },
     {
       "id": 8,
@@ -177,7 +202,11 @@
          {          
           "title": "Третий вопрос"
          }        
-        ]
+        ],
+        "geo": "Тут Будет Город",
+        "skills": "skills ( вместо тегов )",
+        "position": "position (название вакансии)",
+        "creator_id": "user_id"
     },
     {
       "id": 9,
@@ -199,7 +228,11 @@
          {          
           "title": "Третий вопрос"
          }         
-        ]
+        ],
+        "geo": "Тут Будет Город",
+        "skills": "skills ( вместо тегов )",
+        "position": "position (название вакансии)",
+        "creator_id": "user_id"
     }      
   ],
   "user":[
