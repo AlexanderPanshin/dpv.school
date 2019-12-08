@@ -202,36 +202,7 @@
         "skills": "skills ( вместо тегов )",
         "position": "position (название вакансии)",
         "creator_id": 3
-    },
-    {
-      "id": 8,
-      "title": "Railwayman",
-      "company": "Roga I Kopita",
-      "userpassed": 408,
-      "questions_num": 35,
-      "createdate": "30.11.2015",
-      "canceled": false,
-      "image": "https://www.clipartmax.com/png/full/182-1820951_gallery-korea-government-of-the-republic-of-korea.png",
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla.",
-      "questions": [
-        {  
-         "questions_id": 1,       
-         "title": "Первый вопрос"
-        },
-        {   
-          "questions_id": 2,      
-          "title": "Второй вопрос"
-         },
-         {   
-          "questions_id": 3,       
-          "title": "Третий вопрос"
-         }        
-        ],
-        "geo": "Тут Будет Город",
-        "skills": "skills ( вместо тегов )",
-        "position": "position (название вакансии)",
-        "creator_id": 1
-    }  
+    }
   ],
   "user":[
     {
@@ -289,14 +260,6 @@
     "registdate": "03.02.2016",
     "ageuser": 18,
     "regstatus":true
-    },
-    {
-    "userid": 8,
-    "image": "http://image.yy.com/yywebalbumbs2bucket/a5ac78462fba4ed3b6a3baa5d5138ffd_1446133746810.jpg",
-    "username": "Brittany Watkins",
-    "registdate": "22.10.2011",
-    "ageuser": 42,
-    "regstatus":false
     }
   ]
 }
