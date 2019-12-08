@@ -12,12 +12,15 @@
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla.",
       "questions": [
       {
+       "questions_id": 1,
        "title": "Первый вопрос"
       },
       {
+        "questions_id": 2,
         "title": "Второй вопрос"
        },
        {
+        "questions_id": 3,
         "title": "Третий вопрос"
        }
       ],
@@ -38,12 +41,15 @@
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla .",
       "questions": [
         {
+         "questions_id": 1,
          "title": "Первый вопрос"
         },
         {
+          "questions_id": 2,
           "title": "Второй вопрос"
          },
          {
+          "questions_id": 3,
           "title": "Третий вопрос"
          }
         ],
@@ -64,12 +70,15 @@
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla .",
       "questions": [
         {
+         "questions_id": 1,
          "title": "Первый вопрос"
         },
         {
+          "questions_id": 2,
           "title": "Второй вопрос"
          },
          {
+          "questions_id": 3,
           "title": "Третий вопрос"
          }
         ],
@@ -90,12 +99,15 @@
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla.",
       "questions": [
         {
+         "questions_id": 1,
          "title": "Первый вопрос"
         },
         { 
+          "questions_id": 2,
           "title": "Второй вопрос"
          },
          {
+          "questions_id": 3,
           "title": "Третий вопрос"
          }
         ],
@@ -116,12 +128,15 @@
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla.",
       "questions": [
         {
+         "questions_id": 1,
          "title": "Первый вопрос"
         },
         { 
+          "questions_id": 2,
           "title": "Второй вопрос"
          },
          {
+          "questions_id": 3,
           "title": "Третий вопрос"
          } 
         ],
@@ -142,12 +157,15 @@
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla.",
       "questions": [
         {
+         "questions_id": 1,
          "title": "Первый вопрос"
         },
         {
+          "questions_id": 2,
           "title": "Второй вопрос"
          },
          {
+          "questions_id": 3,
           "title": "Третий вопрос"
          }
         ],
@@ -168,12 +186,15 @@
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla.",
       "questions": [
         {
+         "questions_id": 1,
          "title": "Первый вопрос"
         },
         {
+          "questions_id": 2,
           "title": "Второй вопрос"
          },
-         {          
+         { 
+          "questions_id": 3,         
           "title": "Третий вопрос"
          }         
         ],
@@ -193,13 +214,16 @@
       "image": "https://www.clipartmax.com/png/full/182-1820951_gallery-korea-government-of-the-republic-of-korea.png",
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla.",
       "questions": [
-        {         
+        {  
+         "questions_id": 1,       
          "title": "Первый вопрос"
         },
-        {         
+        {   
+          "questions_id": 2,      
           "title": "Второй вопрос"
          },
-         {          
+         {   
+          "questions_id": 3,       
           "title": "Третий вопрос"
          }        
         ],

@@ -90,7 +90,7 @@
         >
           <section class="d-flex flex-row flex-wrap justify-center">
             <div v-for="(post,index) in posts" :key="index">
-                <div v-if="proId == item.userid">
+                <div v-if="proId == post.userid">
         
                     <!--Карточка1 - Яндекс-->
                 <section class="ma-5 mt-10"  >
