@@ -1,6 +1,7 @@
 <template>
-  <v-container class="grey lighten-1">
+  <v-container >
     <v-row no-gutters style="flex-wrap: nowrap;">
+      
       <v-col
         cols="3"
         class="flex-grow-0 flex-shrink-0"
@@ -14,13 +15,15 @@
     :loading="loading"
     class="mx-auto my-12"
     max-width="374"
-  >
+    v-for="(item,index) in items" :key="index">
+    <div v-if="proId == item.userid">
     <v-img
       height="250"
-      src="https://cdn.vuetifyjs.com/images/cards/cooking.png"
+      :src="item.image"
     ></v-img>
+    
 
-    <v-card-title>Cafe Badilico</v-card-title>
+    <v-card-title>{{item.username}}</v-card-title>
 
     <v-card-text>
       <v-row
@@ -40,15 +43,15 @@
       </v-row>
 
       <div class="my-4 subtitle-1 black--text">
-        $ • Italian, Cafe
+        Ваш возраст: {{item.ageuser}}
       </div>
 
-      <div>Small plates, salads & sandwiches an inteimate setting with 12 indoor seats plus patio seating.</div>
+      <div>Дата Регистрации : {{item.registdate}}</div>
     </v-card-text>
 
     <v-divider class="mx-4"></v-divider>
 
-    <v-card-title>Tonight's availability</v-card-title>
+    <v-card-title>Архив опросов =></v-card-title>
 
     <v-card-text>
       <v-chip-group
@@ -56,25 +59,22 @@
         active-class="deep-purple accent-4 white--text"
         column
       >
-        <v-chip>5:30PM</v-chip>
+        <v-chip>Изменить данные</v-chip>
 
-        <v-chip>7:30PM</v-chip>
-
-        <v-chip>8:00PM</v-chip>
-
-        <v-chip>9:00PM</v-chip>
+        <v-chip>Удалить профиль</v-chip>
       </v-chip-group>
     </v-card-text>
 
     <v-card-actions>
-      <v-btn
+    <!--  <v-btn
         color="deep-purple accent-4"
         text
         @click="reserve"
-      >
+      > 
         Reserve
-      </v-btn>
+      </v-btn> -->
     </v-card-actions>
+    </div>
   </v-card>
         </v-card>
       </v-col>
@@ -88,7 +88,63 @@
           outlined
           tile
         >
-          I'm 1 column wide and I grow to take all the space
+          <section class="d-flex flex-row flex-wrap justify-center">
+            <div v-for="(post,index) in posts" :key="index">
+                <div v-if="proId == item.userid">
+        
+                    <!--Карточка1 - Яндекс-->
+                <section class="ma-5 mt-10"  >
+                <v-hover>
+                        <template v-slot="{ hover }">
+                        <v-card
+                                class=" p-3"
+                                max-width="400"
+                                :elevation="hover ? 24 : 1" 
+                                
+                        >
+                    
+                        <v-icon  color="green" class="ma-3" style="position: absolute;  z-index: 1; "  medium large>
+                            mdi-checkbox-marked
+                            </v-icon>
+                        
+                            <v-img
+                                    class="white--text align-end"
+                                    
+                                    height="200px"
+                                    :src="post.image"
+                            >
+                            
+                            <!--   <v-card-title>Top 10 Australian beaches</v-card-title>-->
+                            </v-img>
+                            
+
+                            <v-card-subtitle class="pb-0">{{post.company}} </v-card-subtitle>
+
+                            <v-card-text class=" pb-0">
+                                <div ><h3 class="text--primary">{{post.title}}</h3></div>
+                            
+                                <!--<div v-for="post in posts" :key="post"><p>{{post.id}}</p></div>-->
+                                <div >{{post.geo}} &#183; {{post.skills}}&#183; {{post.position}}</div>
+                            </v-card-text>
+
+                            <v-card-actions>
+                                <v-btn
+                                        color="cyan lighten-1"
+                                        text
+                                >
+                                    begin
+                                </v-btn>
+                            </v-card-actions>
+                            
+                        </v-card>
+                        </template>
+                    </v-hover>
+                </section> 
+                </div>
+            </div> 
+    </section>
+
+
         </v-card>
       </v-col>
       <v-col
@@ -115,6 +171,7 @@ import axios from 'axios';
         return {
             proId:this.$route.params.Pid,
                 items: [],
+                posts: [],
         }
     },
 
@@ -127,7 +184,15 @@ created() {
         window.console.log(error);
         this.errored=true;
       })
-  }
+  axios.get(`https://my-json-server.typicode.com/AlexanderPanshin/dpv.school/bots`)
+      .then(response=> {
+        this.posts= response.data;
+      })
+      .catch(error=> {
+        window.console.log(error);
+        this.errored=true;
+                })
+        },
   }
   
 </script>

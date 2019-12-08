@@ -26,11 +26,11 @@
                     <tr>
                         <td v-for="id in id"
         :key="id">{{ props.item.botsid }}</td>
-                        <td @click="goTodetail(props.item.botsid)" class="text-xs-right" >{{ props.item.botsname }}</td>
-                        <td class="text-xs-right">{{ props.item.botscompany }}</td>
+                        <td @click="goTodetail(props.item.id)" class="text-xs-right" >{{ props.item.title }}</td>
+                        <td class="text-xs-right">{{ props.item.company }}</td>
                         <td class="text-xs-right">{{ props.item.userpassed }}</td>
-                        <td class="text-xs-right">{{ props.item.numquest }}</td>
-                        <td class="text-xs-right">{{ props.item.creatdate }}</td>
+                        <td class="text-xs-right">{{ props.item.questions_num }}</td>
+                        <td class="text-xs-right">{{ props.item.createdate }}</td>
                     </tr>
                 </template>
                 <v-alert slot="no-results" :value="true" color="error" icon="warning">

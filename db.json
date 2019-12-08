@@ -24,7 +24,7 @@
         "geo": "Тут Будет Город",
         "skills": "skills ( вместо тегов )",
         "position": "position (название вакансии)",
-        "creator_id": "user_id"
+        "creator_id": 1
     },
     {
       "id": 2,
@@ -50,7 +50,7 @@
         "geo": "Тут Будет Город",
         "skills": "skills ( вместо тегов )",
         "position": "position (название вакансии)",
-        "creator_id": "user_id"
+        "creator_id": 3
     },
     {
       "id": 3,
@@ -76,7 +76,7 @@
         "geo": "Тут Будет Город",
         "skills": "skills ( вместо тегов )",
         "position": "position (название вакансии)",
-        "creator_id": "user_id"
+        "creator_id": 4
     },
     {
       "id": 4,
@@ -102,7 +102,7 @@
         "geo": "Тут Будет Город",
         "skills": "skills ( вместо тегов )",
         "position": "position (название вакансии)",
-        "creator_id": "user_id"
+        "creator_id": 2
     },
     {
       "id": 5,
@@ -128,7 +128,7 @@
         "geo": "Тут Будет Город",
         "skills": "skills ( вместо тегов )",
         "position": "position (название вакансии)",
-        "creator_id": "user_id"
+        "creator_id": 6
     },
     {
       "id": 6,
@@ -154,7 +154,7 @@
         "geo": "Тут Будет Город",
         "skills": "skills ( вместо тегов )",
         "position": "position (название вакансии)",
-        "creator_id": "user_id"
+        "creator_id": 7
     },
     {
       "id": 7,
@@ -180,7 +180,7 @@
         "geo": "Тут Будет Город",
         "skills": "skills ( вместо тегов )",
         "position": "position (название вакансии)",
-        "creator_id": "user_id"
+        "creator_id": 3
     },
     {
       "id": 8,
@@ -206,7 +206,7 @@
         "geo": "Тут Будет Город",
         "skills": "skills ( вместо тегов )",
         "position": "position (название вакансии)",
-        "creator_id": "user_id"
+        "creator_id": 1
     }  
   ],
   "user":[
