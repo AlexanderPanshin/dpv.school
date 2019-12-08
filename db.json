@@ -1,237 +1,204 @@
 {
   "bots": [
     {
-      "botsid": 1,
-      "botsname": "Motor mechanic",
-      "botscompany": "Roga I Kopita",
+      "id": 1,
+      "title": "Motor mechanic",
+      "company": "Roga I Kopita",
       "userpassed": 159,
-      "numquest": 7,
-      "creatdate": "02.10.2015",
-      "iscanceled": true,
-      "imgbots": "https://www.thesitsgirls.com/wp-content/uploads/2016/06/PGLogo-1.png",
-      "descriptionbots": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla.",
-      "botspolls": [
+      "questions_num": 7,
+      "createdate": "02.10.2015",
+      "canceled": true,
+      "image": "https://www.thesitsgirls.com/wp-content/uploads/2016/06/PGLogo-1.png",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla.",
+      "questions": [
       {
-       "pollsid":1,
        "title": "Первый вопрос"
       },
       {
-        "pollsid":2,
         "title": "Второй вопрос"
        },
        {
-        "pollsid":3,
         "title": "Третий вопрос"
        }
        
       ]
     },
     {
-      "botsid": 2,
-      "botsname": "Obstetrician",
-      "botscompany": "Westindische Compagnie",
+      "id": 2,
+      "title": "Obstetrician",
+      "company": "Westindische Compagnie",
       "userpassed": 237,
-      "numquest": 12,
-      "creatdate": "22.09.2017",
-      "iscanceled": false,
-      "imgbots": "https://cdn.wccftech.com/wp-content/uploads/2014/04/intel_receitas_processadores_OMeuiDevice-740x740.png",
-      "descriptionbots": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla .",
-      "botspolls": [
+      "questions_num": 12,
+      "createdate": "22.09.2017",
+      "canceled": false,
+      "image": "https://cdn.wccftech.com/wp-content/uploads/2014/04/intel_receitas_processadores_OMeuiDevice-740x740.png",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla .",
+      "questions": [
         {
-         "pollsid":1,
+         
          "title": "Первый вопрос"
         },
         {
-          "pollsid":2,
           "title": "Второй вопрос"
          },
          {
-          "pollsid":3,
           "title": "Третий вопрос"
          }
          
         ]
     },
     {
-      "botsid": 3,
-      "botsname": "Auditor",
-      "botscompany": "Roga I Kopita",
+      "id": 3,
+      "title": "Auditor",
+      "company": "Roga I Kopita",
       "userpassed": 262,
-      "numquest": 10,
-      "creatdate": "28.12.2016",
-      "iscanceled": true,
-      "imgbots": "https://maxpark.com/static/u/article_image/18/08/31/tmpvdLPPG.png",
-      "descriptionbots": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla .",
-      "botspolls": [
+      "questions_num": 10,
+      "createdate": "28.12.2016",
+      "canceled": true,
+      "image": "https://maxpark.com/static/u/article_image/18/08/31/tmpvdLPPG.png",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla .",
+      "questions": [
         {
-         "pollsid":1,
          "title": "Первый вопрос"
         },
         {
-          "pollsid":2,
           "title": "Второй вопрос"
          },
          {
-          "pollsid":3,
           "title": "Третий вопрос"
          }
-         
         ]
     },
     {
-      "botsid": 4,
-      "botsname": "Botanist",
-      "botscompany": "Westindische Compagnie",
+      "id": 4,
+      "title": "Botanist",
+      "company": "Westindische Compagnie",
       "userpassed": 305,
-      "numquest": 3,
-      "creatdate": "16.12.2019",
-      "iscanceled": false,
-      "imgbots": "https://dtsvkkjw40x57.cloudfront.net/images/author/2829/big_7wU3tFLlRK2WtWUVgOK1_Citrix_20Systems_20Inc.png",
-      "descriptionbots": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla.",
-      "botspolls": [
+      "questions_num": 3,
+      "createdate": "16.12.2019",
+      "canceled": false,
+      "image": "https://dtsvkkjw40x57.cloudfront.net/images/author/2829/big_7wU3tFLlRK2WtWUVgOK1_Citrix_20Systems_20Inc.png",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla.",
+      "questions": [
         {
-         "pollsid":1,
          "title": "Первый вопрос"
         },
-        {
-          "pollsid":2,
+        { 
           "title": "Второй вопрос"
          },
          {
-          "pollsid":3,
           "title": "Третий вопрос"
          }
-         
         ]
     },
     {
-      "botsid": 5,
-      "botsname": "Bookkeeper",
-      "botscompany": "Westindische Compagnie",
+      "id": 5,
+      "title": "Bookkeeper",
+      "company": "Westindische Compagnie",
       "userpassed": 356,
-      "numquest": 15,
-      "creatdate": "15.04.2016",
-      "iscanceled": true,
-      "imgbots": "https://dtsvkkjw40x57.cloudfront.net/images/author/2760/big_EyeKLGloRx2FYpeMRiPA_National_20Oilwell_20Varco_20Inc.png",
-      "descriptionbots": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla.",
-      "botspolls": [
+      "questions_num": 15,
+      "createdate": "15.04.2016",
+      "canceled": true,
+      "image": "https://dtsvkkjw40x57.cloudfront.net/images/author/2760/big_EyeKLGloRx2FYpeMRiPA_National_20Oilwell_20Varco_20Inc.png",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla.",
+      "questions": [
         {
-         "pollsid":1,
          "title": "Первый вопрос"
         },
-        {
-          "pollsid":2,
+        { 
           "title": "Второй вопрос"
          },
          {
-          "pollsid":3,
           "title": "Третий вопрос"
-         }
-         
+         } 
         ]
     },
     {
-      "botsid": 6,
-      "botsname": "Plumber",
-      "botscompany": "Roga I Kopita",
+      "id": 6,
+      "title": "Plumber",
+      "company": "Roga I Kopita",
       "userpassed": 375,
-      "numquest": 26,
-      "creatdate": "19.12.2017",
-      "iscanceled": false,
-      "imgbots": "https://yournerdside.com/wp-content/uploads/2018/11/19.png",
-      "descriptionbots": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla.",
-      "botspolls": [
+      "questions_num": 26,
+      "createdate": "19.12.2017",
+      "canceled": false,
+      "image": "https://yournerdside.com/wp-content/uploads/2018/11/19.png",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla.",
+      "questions": [
         {
-         "pollsid":1,
          "title": "Первый вопрос"
         },
         {
-          "pollsid":2,
           "title": "Второй вопрос"
          },
          {
-          "pollsid":3,
           "title": "Третий вопрос"
          }
-         
         ]
     },
     {
-      "botsid": 7,
-      "botsname": "Geneticist",
-      "botscompany": "Roga I Kopita",
+      "id": 7,
+      "title": "Geneticist",
+      "company": "Roga I Kopita",
       "userpassed": 392,
-      "numquest": 44,
-      "creatdate": "10.11.2016",
-      "iscanceled": true,
-      "imgbots": "https://www.dogmoneyllc.com/wp-content/uploads/2018/10/1494/14492619_1658549527808747_5767506061656446404_n-740x740.png",
-      "descriptionbots": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla.",
-      "botspolls": [
+      "questions_num": 44,
+      "createdate": "10.11.2016",
+      "canceled": true,
+      "image": "https://www.dogmoneyllc.com/wp-content/uploads/2018/10/1494/14492619_1658549527808747_5767506061656446404_n-740x740.png",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla.",
+      "questions": [
         {
-         "pollsid":1,
          "title": "Первый вопрос"
         },
         {
-          "pollsid":2,
           "title": "Второй вопрос"
          },
-         {
-          "pollsid":3,
+         {          
           "title": "Третий вопрос"
-         }
-         
+         }         
         ]
     },
     {
-      "botsid": 8,
-      "botsname": "Railwayman",
-      "botscompany": "Roga I Kopita",
+      "id": 8,
+      "title": "Railwayman",
+      "company": "Roga I Kopita",
       "userpassed": 408,
-      "numquest": 35,
-      "creatdate": "30.11.2015",
-      "iscanceled": false,
-      "imgbots": "https://www.clipartmax.com/png/full/182-1820951_gallery-korea-government-of-the-republic-of-korea.png",
-      "descriptionbots": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla.",
-      "botspolls": [
-        {
-         "pollsid":1,
+      "questions_num": 35,
+      "createdate": "30.11.2015",
+      "canceled": false,
+      "image": "https://www.clipartmax.com/png/full/182-1820951_gallery-korea-government-of-the-republic-of-korea.png",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla.",
+      "questions": [
+        {         
          "title": "Первый вопрос"
         },
-        {
-          "pollsid":2,
+        {         
           "title": "Второй вопрос"
          },
-         {
-          "pollsid":3,
+         {          
           "title": "Третий вопрос"
-         }
-         
+         }        
         ]
     },
     {
-      "botsid": 9,
-      "botsname": "Merchant",
-      "botscompany": "Westindische Compagnie",
+      "id": 9,
+      "title": "Merchant",
+      "company": "Westindische Compagnie",
       "userpassed": 452,
-      "numquest": 17,
-      "creatdate": "27.03.2017",
-      "iscanceled": true,
-      "imgbots": "http://www.disasterstrategies.org/application/files/thumbnails/small/5714/8495/4563/PortlightLogo_Square.jpg",
-      "descriptionbots": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla.",
-      "botspolls": [
-        {
-         "pollsid":1,
+      "questions_num": 17,
+      "createdate": "27.03.2017",
+      "canceled": true,
+      "image": "http://www.disasterstrategies.org/application/files/thumbnails/small/5714/8495/4563/PortlightLogo_Square.jpg",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla.",
+      "questions": [
+        {         
          "title": "Первый вопрос"
         },
-        {
-          "pollsid":2,
+        {          
           "title": "Второй вопрос"
          },
-         {
-          "pollsid":3,
+         {          
           "title": "Третий вопрос"
-         }
-         
+         }         
         ]
     }      
   ],
