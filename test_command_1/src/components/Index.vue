@@ -9,7 +9,7 @@
 
           <v-flex mb-4>
             <h1 class="display-2 font-weight-bold mb-3">
-              Welcome to Chatbots APP
+              Welcome to SuperBots APP
             </h1>
             <p class="subheading font-weight-regular">
               Service to manage your bots in one place

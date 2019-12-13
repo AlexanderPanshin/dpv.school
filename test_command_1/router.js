@@ -4,7 +4,7 @@ import Index from "./src/components/Index"
 import ChatBots from "./src/components/ChatBots"
 import Admin from "./src/components/Admin"
 import Test from "./src/components/Test"
-import EditPoll from "./src/components/EditPoll"
+import EditBots from "./src/components/EditBots"
 import User from "./src/components/User"
 import Adminuser from "./src/components/Adminuser"
 import CardChat from "./src/components/CardChat"
@@ -40,9 +40,9 @@ export default new Router({
         },
 
         {
-            path: '/editpoll/',
-            name: 'editpoll',
-            component: EditPoll,
+            path: '/editbots/',
+            name: 'editbots',
+            component: EditBots,
             props: true,
         },
         {

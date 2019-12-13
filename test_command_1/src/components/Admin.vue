@@ -2,7 +2,7 @@
     <div>
         <v-card >
             <v-card-title>
-                List of polls
+                List of bots
                 <v-spacer></v-spacer>
                 <v-text-field
                         append-icon="mdi-search-web"
@@ -172,7 +172,7 @@
             },
     goTodetail (prodId) {
       let proId=prodId
-      this.$router.push({name: 'cardchat', params: {Pid: proId}})
+      this.$router.push({name: 'editbots', params: {Pid: proId}})
     }
   }
     }

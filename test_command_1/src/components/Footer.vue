@@ -27,7 +27,7 @@
                 Dashboard
             </v-btn>
             </router-link>
-            <router-link to="/editpoll" style="text-decoration: none; color: white">
+            <router-link to="/editbots" style="text-decoration: none; color: white">
                 <v-btn
                         color="white"
                         text
@@ -51,7 +51,7 @@
                     class="py-4 text-center white--text"
                     cols="12"
             >
-                {{ new Date().getFullYear() }} — <strong>PollsApp</strong>
+                {{ new Date().getFullYear() }} — <strong>MySuperBotsApp</strong>
             </v-col>
         </v-row>
     </v-footer>

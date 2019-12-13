@@ -3,7 +3,7 @@
     <v-row no-gutters style="flex-wrap: nowrap;">
       
       <v-col
-        cols="3"
+        cols="4"
         class="flex-grow-0 flex-shrink-0"
       >
         <v-card
@@ -51,7 +51,7 @@
 
     <v-divider class="mx-4"></v-divider>
 
-    <v-card-title>Архив опросов =></v-card-title>
+    <v-card-title>Архив созданных Ботов <v-icon>mdi-forward</v-icon></v-card-title>
 
     <v-card-text>
       <v-chip-group
@@ -81,19 +81,16 @@
       <v-col
         cols="1"
         style="min-width: 100px; max-width: 100%;"
-        class="flex-grow-1 flex-shrink-0"
+        class="flex-grow-1 "
       >
         <v-card
           class="pa-2"
           outlined
           tile
         >
-          <section class="d-flex flex-row flex-wrap justify-center">
-            <div v-for="(post,index) in posts" :key="index">
-                <div v-if="proId == post.userid">
         
-                    <!--Карточка1 - Яндекс-->
-                <section class="ma-5 mt-10"  >
+          <section class="ma-5 mt-10" v-for="(post,index) in posts" :key="index" :class="`d-flex justify-center`" >
+            <div v-if="proId == post.creator_id">
                 <v-hover>
                         <template v-slot="{ hover }">
                         <v-card
@@ -102,11 +99,11 @@
                                 :elevation="hover ? 24 : 1" 
                                 
                         >
-                    
-                        <v-icon  color="green" class="ma-3" style="position: absolute;  z-index: 1; "  medium large>
+                    <span v-bind:class="{'d-none': !post.canceled}">
+                        <!--<v-icon  color="green"  class="pos"  medium large>
                             mdi-checkbox-marked
-                            </v-icon>
-                        
+                            </v-icon>-->
+                    </span>  
                             <v-img
                                     class="white--text align-end"
                                     
@@ -139,27 +136,13 @@
                         </v-card>
                         </template>
                     </v-hover>
+                    </div>
                 </section> 
-                </div>
-            </div> 
-    </section>
-
+        
 
         </v-card>
       </v-col>
-      <v-col
-        cols="5"
-        style="min-width: 100px;"
-        class="flex-grow-0 flex-shrink-1"
-      >
-        <v-card
-          class="pa-2"
-          outlined
-          tile
-        >
-          I'm 5 column wide and I shrink if there's not enough space
-        </v-card>
-      </v-col>
+   
     </v-row>
   </v-container>
   
