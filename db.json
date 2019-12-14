@@ -2,206 +2,206 @@
   "bots": [
     {
       "id": 1,
-      "title": "Motor mechanic",
-      "company": "Roga I Kopita",
+      "title": "UX Engineer, Front End, iOS",
+      "company": "Google.Inc",
       "userpassed": 159,
       "questions_num": 7,
       "createdate": "02.10.2015",
       "canceled": true,
-      "image": "https://www.thesitsgirls.com/wp-content/uploads/2016/06/PGLogo-1.png",
+      "image": "https://zhiznonline.ru/wp-content/uploads/2019/01/1-1142.jpg",
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla.",
       "questions": [
-      {
-       "questions_id": 1,
-       "title": "Первый вопрос"
-      },
-      {
-        "questions_id": 2,
-        "title": "Второй вопрос"
-       },
-       {
-        "questions_id": 3,
-        "title": "Третий вопрос"
-       }
+        {
+          "questions_id": 1,
+          "title": "Первый вопрос"
+        },
+        {
+          "questions_id": 2,
+          "title": "Второй вопрос"
+        },
+        {
+          "questions_id": 3,
+          "title": "Третий вопрос"
+        }
       ],
-        "geo": "Тут Будет Город",
-        "skills": "skills ( вместо тегов )",
-        "position": "position (название вакансии)",
-        "creator_id": 1
+      "geo": "San Francisco",
+      "skills": "Objective-C, Swif",
+      "position": " Specialist",
+      "creator_id": 1
     },
     {
       "id": 2,
-      "title": "Obstetrician",
-      "company": "Westindische Compagnie",
+      "title": "Senior Passive Safety Test Engineer",
+      "company": "Tesla.Inc",
       "userpassed": 237,
       "questions_num": 12,
       "createdate": "22.09.2017",
       "canceled": false,
-      "image": "https://cdn.wccftech.com/wp-content/uploads/2014/04/intel_receitas_processadores_OMeuiDevice-740x740.png",
+      "image": "https://pbs.twimg.com/media/D3dNX6zWkAAG2CH.jpg:large",
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla .",
       "questions": [
         {
-         "questions_id": 1,
-         "title": "Первый вопрос"
+          "questions_id": 1,
+          "title": "Первый вопрос"
         },
         {
           "questions_id": 2,
           "title": "Второй вопрос"
-         },
-         {
+        },
+        {
           "questions_id": 3,
           "title": "Третий вопрос"
-         }
-        ],
-        "geo": "Тут Будет Город",
-        "skills": "skills ( вместо тегов )",
-        "position": "position (название вакансии)",
-        "creator_id": 3
+        }
+      ],
+      "geo": "Palo Alto",
+      "skills": "Microelectronics",
+      "position": "Senior",
+      "creator_id": 3
     },
     {
       "id": 3,
-      "title": "Auditor",
-      "company": "Roga I Kopita",
+      "title": "Specialized Technical Account Manager",
+      "company": "Amazon",
       "userpassed": 262,
       "questions_num": 10,
       "createdate": "28.12.2016",
       "canceled": true,
-      "image": "https://maxpark.com/static/u/article_image/18/08/31/tmpvdLPPG.png",
+      "image": "https://pbs.twimg.com/media/Dsk_StcWsAA7V0u.jpg:large",
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla .",
       "questions": [
         {
-         "questions_id": 1,
-         "title": "Первый вопрос"
+          "questions_id": 1,
+          "title": "Первый вопрос"
         },
         {
           "questions_id": 2,
           "title": "Второй вопрос"
-         },
-         {
+        },
+        {
           "questions_id": 3,
           "title": "Третий вопрос"
-         }
-        ],
-        "geo": "Тут Будет Город",
-        "skills": "skills ( вместо тегов )",
-        "position": "position (название вакансии)",
-        "creator_id": 4
+        }
+      ],
+      "geo": "New York",
+      "skills": "Manager, media",
+      "position": "Specialist",
+      "creator_id": 4
     },
     {
       "id": 4,
-      "title": "Botanist",
-      "company": "Westindische Compagnie",
+      "title": "Senior Software Engineer, Gameplay",
+      "company": "Blizzard Entertainment",
       "userpassed": 305,
       "questions_num": 3,
       "createdate": "16.12.2019",
       "canceled": false,
-      "image": "https://dtsvkkjw40x57.cloudfront.net/images/author/2829/big_7wU3tFLlRK2WtWUVgOK1_Citrix_20Systems_20Inc.png",
+      "image": "https://finalweapon.net/wp-content/uploads/2019/07/Blizzard-KV.jpg",
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla.",
       "questions": [
         {
-         "questions_id": 1,
-         "title": "Первый вопрос"
+          "questions_id": 1,
+          "title": "Первый вопрос"
         },
-        { 
+        {
           "questions_id": 2,
           "title": "Второй вопрос"
-         },
-         {
+        },
+        {
           "questions_id": 3,
           "title": "Третий вопрос"
-         }
-        ],
-        "geo": "Тут Будет Город",
-        "skills": "skills ( вместо тегов )",
-        "position": "position (название вакансии)",
-        "creator_id": 2
+        }
+      ],
+      "geo": "California",
+      "skills": "C++, 5 years experience",
+      "position": "Professional",
+      "creator_id": 2
     },
     {
       "id": 5,
-      "title": "Bookkeeper",
-      "company": "Westindische Compagnie",
+      "title": "CPU pre-silicon verification Engineer",
+      "company": "Intel",
       "userpassed": 356,
       "questions_num": 15,
       "createdate": "15.04.2016",
       "canceled": true,
-      "image": "https://dtsvkkjw40x57.cloudfront.net/images/author/2760/big_EyeKLGloRx2FYpeMRiPA_National_20Oilwell_20Varco_20Inc.png",
+      "image": "https://img3.goodfon.ru/original/1920x1200/b/2b/intel-logo-intel-logotip-3579.jpg",
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla.",
       "questions": [
         {
-         "questions_id": 1,
-         "title": "Первый вопрос"
+          "questions_id": 1,
+          "title": "Первый вопрос"
         },
-        { 
+        {
           "questions_id": 2,
           "title": "Второй вопрос"
-         },
-         {
+        },
+        {
           "questions_id": 3,
           "title": "Третий вопрос"
-         } 
-        ],
-        "geo": "Тут Будет Город",
-        "skills": "skills ( вместо тегов )",
-        "position": "position (название вакансии)",
-        "creator_id": 6
+        }
+      ],
+      "geo": "Santa Clara",
+      "skills": "Degree in Engineering,Software ",
+      "position": " Engineering",
+      "creator_id": 6
     },
     {
       "id": 6,
-      "title": "Plumber",
-      "company": "Roga I Kopita",
+      "title": "Front-developer",
+      "company": "Dvp.soft",
       "userpassed": 375,
       "questions_num": 26,
       "createdate": "19.12.2017",
       "canceled": false,
-      "image": "https://yournerdside.com/wp-content/uploads/2018/11/19.png",
+      "image": "https://sun9-3.userapi.com/c858432/v858432587/5123b/0s0W9LhXWs8.jpg",
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla.",
       "questions": [
         {
-         "questions_id": 1,
-         "title": "Первый вопрос"
+          "questions_id": 1,
+          "title": "Первый вопрос"
         },
         {
           "questions_id": 2,
           "title": "Второй вопрос"
-         },
-         {
+        },
+        {
           "questions_id": 3,
           "title": "Третий вопрос"
-         }
-        ],
-        "geo": "Тут Будет Город",
-        "skills": "skills ( вместо тегов )",
-        "position": "position (название вакансии)",
-        "creator_id": 7
+        }
+      ],
+      "geo": "Petrozavodsk",
+      "skills": "Html, Css, Vue.js, React",
+      "position": "Junior",
+      "creator_id": 7
     },
     {
       "id": 7,
-      "title": "Geneticist",
-      "company": "Roga I Kopita",
+      "title": "Developer C++ (Mobile, KasperskyOS)",
+      "company": "Kaspersky.lab",
       "userpassed": 392,
       "questions_num": 44,
       "createdate": "10.11.2016",
       "canceled": true,
-      "image": "https://www.dogmoneyllc.com/wp-content/uploads/2018/10/1494/14492619_1658549527808747_5767506061656446404_n-740x740.png",
+      "image": "https://www.belekomahaber.com/wp-content/uploads/2018/08/bilecik1.jpg",
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci natus eaque quibusdam temporibus culpa reprehenderit consectetur, nulla.",
       "questions": [
         {
-         "questions_id": 1,
-         "title": "Первый вопрос"
+          "questions_id": 1,
+          "title": "Первый вопрос"
         },
         {
           "questions_id": 2,
           "title": "Второй вопрос"
-         },
-         { 
-          "questions_id": 3,         
+        },
+        {
+          "questions_id": 3,
           "title": "Третий вопрос"
-         }         
-        ],
-        "geo": "Тут Будет Город",
-        "skills": "skills ( вместо тегов )",
-        "position": "position (название вакансии)",
-        "creator_id": 3
+        }
+      ],
+      "geo": "Sankt-Peterburg ",
+      "skills": "C/C++, Posix.API",
+      "position": "Senior",
+      "creator_id": 3
     }
   ],
   "user":[
